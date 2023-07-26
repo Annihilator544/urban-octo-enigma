@@ -1,0 +1,74 @@
+body{
+    background-color: #121212;
+    margin: 0%;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    background-color: #212121;
+    border-radius: 15px;
+    padding :20px 30px;
+    
+}
+div.scroll-container {
+    background-color: #121212;
+    overflow: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+    white-space: nowrap;
+    padding: 10px;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+  }
+  
+  div.scroll-container img {
+    padding: 20px;
+  }
+.navlogo{
+    width: 30px;
+    height: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        background-color: #424242;
+        border-radius: 50%;
+    }
+}
+.header{
+    
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    padding: 0px 30px;
+    align-items: center;
+    background-color: #121212;
+    position: fixed;
+    width: 100%;
+}
+.marvel{
+    display:grid;
+    height:auto;
+}
+ p{
+    color: aliceblue;
+    font-size: 32px;
+    margin:0px 30px;
+    font-family: "Marvel";
+    
+}
+@font-face{
+    font-family: 'Marvel';
+    src: url('LEMONMILK-Medium.otf');
+}
