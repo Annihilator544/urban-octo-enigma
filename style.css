@@ -68,6 +68,18 @@ div.scroll-container {
     font-family: "Marvel";
     
 }
+.map{
+    display: flex;
+    margin: 10px;
+    margin-top:100px;
+    height:50vh;
+}
+.hall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
 @font-face{
     font-family: 'Marvel';
     src: url('LEMONMILK-Medium.otf');
