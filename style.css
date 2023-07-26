@@ -58,7 +58,8 @@ div.scroll-container {
     width: 100%;
 }
 .marvel{
-    display:grid;
+    display:flex;
+    flex-direction: column;
     height:auto;
 }
  p{
@@ -79,6 +80,29 @@ div.scroll-container {
     justify-content: center;
     align-items: center;
     margin: 10px;
+}
+.ticket{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: aliceblue;
+    font-size: 24px;
+    font-family: "Marvel";
+    background-color: #212121;
+    border-radius: 15px;
+    margin: 15px 15px;
+    padding: 20px;
+}
+.history{
+    margin-top: 100px;
 }
 @font-face{
     font-family: 'Marvel';
